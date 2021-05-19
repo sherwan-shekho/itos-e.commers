@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 11, 11);
+}
+p{
+    color: rgb(46, 11, 11);
+}
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.col-2 h1{
+font-size: 25px;
+line-height: 20px;
+margin: 25px 0;
+}
+.button{
+    display: inline-block;
+    background-color: #0c3b57;
+    color: rgb(158, 147, 147);
+    padding: 8px;
+    margin: 100px 250px ;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.button:hover{
+background-color:rgb(7, 114, 73);
+}
+.header{
+    background: hsl(0, 33%, 98%);
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex: basis 50%;
+    margin-bottom: 30%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
+.contact-titel{
+    width: 85%;
+    max-width: 600px;
+    background:#f0eaeab3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    padding: 30px,40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #eb1010b3;
+}
+.contact-titel h2{
+    margin: 0;
+    font-weight: 200;
+}
+.txt{
+    border: 1pxs solid gray;
+    margin: 50px ;
+    border-radius: 30px;
+    padding: auto;
+}
+.txt label{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15pxs;
+}
+.txt input,textarea{
+    width: 100%;
+    border: none;
+    background:rgb(248, 246, 246);
+}
+.btn{
+    display:inline-block;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 100%;
+}
